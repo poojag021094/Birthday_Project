@@ -1,0 +1,313 @@
+/*.cake_container{
+    position: relative;
+    width: 500px;
+    height: 600px;
+    border: 2px solid black;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: pink;
+
+}
+.first_layer{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top: 65%;
+    left: 23%;
+    border-top: 2px solid;
+    border-top-color: white;
+    border-radius: 7px;
+    background-color: chocolate
+
+}
+.second_layer{
+    position: absolute;
+    width:250px;
+    height:90px;
+    border-bottom: transparent;
+    top: 49.6%;
+    left: 28%;
+    border-top: 2px solid;
+    border-top-color: white;
+    border-radius: 7px;
+    background-color: chocolate
+
+}
+.third_layer{
+    position: absolute;
+    width:200px;
+    height:80px;
+    border-bottom: transparent;
+    top: 35.8%;
+    left: 33%;
+    border-top: 2px solid;
+    border-top-color: white;
+    border-radius: 7px;
+    background-color: chocolate
+
+}
+.fourth_layer{
+    position: absolute;
+    width:150px;
+    height:70px;
+    border-bottom: transparent;
+    top: 23.8%;
+    left: 38%;
+    border-top: 2px solid;
+    border-top-color: white;
+    border-radius: 7px;
+    background-color: chocolate
+
+}
+.first_layer::after{
+    position: absolute;
+    content: '';
+    width: 350px;
+    border: 4px solid black;
+    top: 100px;
+    left: -28px;
+}
+.stand{
+    position: absolute;
+    height: 60px;
+    border: 5px solid black;
+    top: 500px;
+    left: 260px;
+}
+.stand::after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    border: 3px solid black;
+    top: 60px;
+    left: -26px;
+}
+.f_drip1{
+    position: absolute;
+    width: 50px;
+    height: 60px;
+    border-top: transparent;
+    left: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: white;
+}
+.f_drip2{
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    border-top: transparent;
+    left: 120px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    background-color: white;
+
+}
+.f_drip3{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    border-top: transparent;
+    left: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    left: 200px;
+    background-color: white;
+}
+.f_drip4{
+    position: absolute;
+    width:30px;
+    height: 80px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top: transparent;
+    left: 100px;
+    background-color: white;
+    border: none;
+}
+.f_drip5{
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    border-top: transparent;
+    left:215px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    background-color: white;
+}
+.s_drip1{
+    position: absolute;
+    width: 20px;
+    height: 60px;
+    background-color: white;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    left: 10px;
+}
+.s_drip2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    left: 50px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+.s_drip3{
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    background-color: white;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    left: 80px;
+}
+.s_drip4{
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    background-color: white;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    left: 160px;
+}
+.t_drip1{
+    position: absolute;
+    width: 50px;
+    height: 60px;
+    border-top: transparent;
+    left: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: white;
+}
+.t_drip2{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    border-top: transparent;
+    left: 130px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    background-color: white;
+
+}
+.t_drip4{
+    position: absolute;
+    width:30px;
+    height: 60px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top: transparent;
+    left: 100px;
+    background-color: white;
+    border: none;
+}*/
+
+
+.letter1{
+    position: relative;
+    width: 250px;
+    height: 290px;
+    border: 2px solid black;
+}
+.one{
+    position: absolute;
+    width: 50px;
+    height: 250px;
+    border-radius: 30px;
+    top: 10%;
+    left: 10%;
+    background-color: antiquewhite
+}
+.two{
+    position: absolute;
+    width: 50px;
+    height: 250px;
+    border-radius: 30px;
+    top: 10%;
+    left: 60%;
+    background-color: antiquewhite
+}
+.three{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    top: 45%;
+    left: 10%;
+    background-color: antiquewhite;
+}
+
+.letter2{
+    position: relative;
+    width: 250px;
+    height: 290px;
+    border: 2px solid black;
+}
+.l_one{
+    position: absolute;
+    width: 50px;
+    height: 250px;
+    border-radius: 30px;
+    top: 10%;
+    left: 25%;
+    background-color: antiquewhite;
+    transform: rotate(20deg);
+}
+.l_two{
+    position: absolute;
+    width: 50px;
+    height: 250px;
+    border-radius: 30px;
+    top: 10%;
+    left: 55%;
+    background-color: antiquewhite;
+    transform: rotate(-20deg);
+}
+.l_three{
+   position: absolute;
+   width: 100px;
+   height: 50px;
+   background-color: antiquewhite;
+   top: 60%;
+   left: 30%; 
+}
+.letter3{
+    position: relative;
+    width: 250px;
+    height: 290px;
+    border: 2px solid black;
+}
+.p_one{
+    position: absolute;
+    width: 50px;
+    height: 250px;
+    border-radius: 30px;
+    top: 10%;
+    left: 10%;
+    background-color: antiquewhite;
+}
+.p_two{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    background-color: antiquewhite;
+    border-radius: 100%;
+    border-left: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    left: 10%;
+    top: 10%;
+}
+
+.p_three{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    left: 26%;
+    top: 26%;
+
+    background-color: white;
+}
