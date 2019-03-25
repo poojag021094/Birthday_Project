@@ -1,0 +1,197 @@
+body{
+    background-color: antiquewhite;
+}
+.cake{
+    position: absolute;
+    width: 600px;
+    height: 540px;
+    border: 2px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.number2{
+    position: absolute;
+    width: 9px;
+    height: 10px;
+    top: 82.5px;
+    left: 290px;
+}
+.flame1,.flame2{
+    position: absolute;
+    height:12px;
+    width: 6px;
+    background-color: #ffd215;
+    border-radius: 100%;
+    right: 1px;
+    top:-15px ;
+    animation: flame1 0.5s infinite;
+}
+@keyframes flame1{
+    0%{
+        height: 12px;
+        background-color: #ffd215;
+    }
+    50%{
+        height: 14px;
+        background-color: #ffd215;
+    }
+    100%{
+        height: 12px;
+        background-color: #ffd215;
+    }
+}
+.number7{
+    position: absolute;
+    width: 14px;
+    height: 10px;
+    top: 82.5px;
+    left: 310px;
+}
+.number2::after{
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #c6c6c6;
+    top: 0;
+}
+.number2::before{
+    position: absolute;
+    content: " ";
+    width: 5px;
+    height: 25px;
+    background-color: #c6c6c6;
+    top: 0;
+    right: 0;
+}
+.number7::before{
+    position: absolute;
+    content: " ";
+    width: 20px;
+    height: 5px;
+    background-color: #c6c6c6;
+    top: 0;
+    left: 0;
+}
+.number7::after{
+    position: absolute;
+    content: " ";
+    width: 5px;
+    height: 27px;
+    background-color: #c6c6c6;
+    top: 0;
+    right: 0;
+    transform: rotate(30deg)
+}
+.top_layer{
+    position: absolute;
+    width: 140px;
+    height: 70px;
+    background-color:#744c28;
+    border-radius: 5px 5px 0 0 ;
+    left: 40%;
+    top: 20%;
+}
+.cake_top_cream{
+    position: absolute;
+    height: 18px;
+    width: 100%;
+    background-color: #f24282;
+    top: 0;
+    border-radius: 5px;
+}
+.cake_top_cream1{
+    position: absolute;
+    height: 25px;
+    width: 15px;
+    left: -3px;
+    border-radius: 9px;
+    background-color: #f24282;
+}
+.cake_top_cream2{
+    position: absolute;
+    height: 25px;
+    width: 10px;
+    top: 10px;
+    background-color: #744c28;
+    left: 12px;
+    border-radius: 9px;
+}
+.cake_top_cream3{
+    position: absolute;
+    height: 23px;
+    width: 10px;
+    background-color: #f24282;
+    border-radius: 9px;
+    left: 22px;
+}
+.cake_top_cream4{
+    position: absolute;
+    height: 26px;
+    width: 12px;
+    background-color: #744c28;
+    top: 12px;
+    border-radius: 9px;
+    left: 32px;
+}
+.cake_top_cream5{
+    position: absolute;
+    height: 32px;
+    width: 13px;
+    background-color: #f24282;
+    border-radius: 9px;
+    left: 44px;
+}
+.cake_top_cream6{
+    position: absolute;
+    height:25px;
+    width: 15px;
+    background-color: #744c28;
+    border-radius: 9px;
+    top: 8px;
+    left: 57px;
+}
+.cake_top_cream7{
+    position: absolute;
+    height:25px;
+    width: 13px;
+    background-color: #f24282;
+    border-radius: 9px;
+    left: 72px;
+}
+.cake_top_cream8{
+    position: absolute;
+    height: 25px;
+    width: 12px;
+    background-color: #744c28;
+    border-radius: 9px;
+    left: 85px;
+    top: 12px;
+}
+.cake_top_cream9{
+    position: absolute;
+    height: 37px;
+    width: 15px;
+    background-color: #f24282;
+    border-radius: 9px;
+    left: 97px;
+}
+.cake_top_cream10{
+    position: absolute;
+    height: 25px;
+    width: 13px;
+    background-color: #744c28;
+    border-radius: 9px;
+    top: 5px;
+    left: 112px;
+}
+.cake_top_cream11{
+    position: absolute;
+    height: 23px;
+    width: 16px;
+    background-color: #f24282;
+    border-radius: 9px;
+    left: 125px;
+    top: 0;
+}
